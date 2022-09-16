@@ -1,3 +1,3 @@
 # Гумин Даниил M33001
 # xGLab Metrics
-Description of football metrics for the [XGLab](https://t.me/xglab)
+Описание футбольных метрик для платформы [XGLab](https://xglab.pro/)
