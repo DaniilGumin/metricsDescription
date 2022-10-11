@@ -1,8 +1,0 @@
-<link rel="shortcut icon" href="/Source/Images/logo16x16.png" type="image/png">
-<link rel="stylesheet" href="/Source/Styles/Layouts/header.css" type="text/css">
-<link rel="stylesheet" href="/Source/Styles/Blocks/text_block.css" type="text/css">
-<link rel="stylesheet" href="/Source/Styles/Layouts/base.css" type="text/css">
-<link rel="stylesheet" href="/Source/Styles/Layouts/footer.css" type="text/css">
-<link rel="stylesheet" href="/Source/Styles/Layouts/main.css" type="text/css">
-<link rel="stylesheet" href="/Source/Styles/Images/block_image.css" type="text/css">
-<link rel="stylesheet" href="/Source/Styles/Tables/metrics_table.css" type="text/css">
