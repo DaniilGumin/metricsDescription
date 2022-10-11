@@ -1,0 +1,20 @@
+<footer class="default-footer">
+    <div class="card">
+        <h2>Контакты</h2>
+        <p class="footer-text">
+            <span>
+                <a target="_blank" href="https://t.me/xGLabBot">t.me/xGLabBot</a> - Футбольный диаграмы. Сонары и тепловые карты
+            </span>
+        </p>
+        <p class="footer-text">
+            <span>
+                <a target="_blank" href="https://t.me/xglab_help">t.me/xglab_help</a> - Если возникли проблемы с сайтом или ботом, напишите сюда
+            </span>
+        </p>
+        <p class="footer-text">
+            <span>
+                <a target="_blank" href="https://t.me/xGLabBot">t.me/xGLabBot</a> - Новостной канал
+            </span>
+        </p>
+    </div>
+</footer>

@@ -1,4 +1,9 @@
-.footer-text{
+.footer-text {
     text-indent: 5px;
     text-decoration: underline;
+}
+
+.default-footer{
+    position: absolute;
+    width: 100%;
 }
