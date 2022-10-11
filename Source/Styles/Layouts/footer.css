@@ -3,7 +3,11 @@
     text-decoration: underline;
 }
 
-.default-footer{
+.default-footer {
     position: absolute;
     width: 100%;
+}
+
+#load-time {
+    text-align: center;
 }
