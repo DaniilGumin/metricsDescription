@@ -23,6 +23,22 @@
         <h2>
             <span>Метрики</span>
         </h2>
+        <div class="block-image-container">
+            <div class="block-image">
+                <div class="block-image box1">
+                    <img alt="epv" class="metric_image" src="Source/Images/epv.PNG">
+                </div>
+                <div class="block-image box2">
+                    <img alt="zones_to" class="metric_image" src="Source/Images/zones_to.jpg">
+                </div>
+                <div class="block-image box3">
+                    <img alt="sonar" class="metric_image" src="Source/Images/sonar.jpg">
+                </div>
+                <div class="block-image box4">
+                    <img alt="zones_from" class="metric_image" src="Source/Images/zones_from.jpg">
+                </div>
+            </div>
+        </div>
         <h3>
             <span>Метрики на <a target="_blank" href="https://xglab.pro/">сайте</a></span>
         </h3>
@@ -30,7 +46,6 @@
             <h4>
                 EPV
             </h4>
-            <img alt="epv" class="metric_image" src="Source/Images/epv.PNG">
             <p>
                 <span>
                         EPV (Expected Possession Value) - ожидаемая ценность владения.
@@ -57,7 +72,6 @@
                 <h4>
                     Сонары
                 </h4>
-                <img alt="epv" class="metric_image" src="Source/Images/epv.PNG">
                 <span>
                     В современной футбольной аналитике диаграммы-сонары – один из самых популярных способов графического отображения диапазона передач игрока или команды. Основная задача сонаров – показать, в каких зонах игрок активен с мячом и как он продвигает мяч. Поле делится на 30 зон, 6 по горизонтали и 5 по вертикали, в каждой из которых строится polar-chart. Polar-chart – это диаграмма, которая состоит из секторов. В нашем случае длина/размер сектора показывает, как много передач было сделано из зоны, в котором находится диаграмма в направлении этого сектора.
                 </span>
@@ -66,7 +80,6 @@
                 <h4>
                     Частота передач в
                 </h4>
-                <img alt="epv" class="metric_image" src="Source/Images/epv.PNG">
                 <span>
                     Показывает как много передач происходит в определённую зону.
                 </span>
@@ -75,7 +88,6 @@
                 <h4>
                     Частота передач из
                 </h4>
-                <img alt="epv" class="metric_image" src="Source/Images/epv.PNG">
                 <span>
                     Показывает как много передач происходит из определённой зоны.
                 </span>
