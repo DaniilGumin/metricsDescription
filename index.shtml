@@ -39,6 +39,36 @@
                 </div>
             </div>
         </div>
+        <div class="table_div">
+            <table class="metrics_table">
+                <thead class="metrics_table_head">
+                <tr class="metrics_table_row">
+                    <th class="metrics_table_head_col_name">Название</th>
+                    <th class="metrics_table_head_col_name">Краткое описание</th>
+                </tr>
+                </thead>
+                <tbody class="metrics_table_body">
+                <tr class="metrics_table_row">
+                    <td class="metrics_table_field">EPV</td>
+                    <td class="metrics_table_field">Ожидаемая ценность владения</td>
+                </tr>
+                <tr class="metrics_table_row">
+                    <td class="metrics_table_field">Сонары</td>
+                    <td class="metrics_table_field">Показывает в каких зонах игрок активен с мячом и как он продвигает
+                        мяч
+                    </td>
+                </tr>
+                <tr class="metrics_table_row">
+                    <td class="metrics_table_field">Частота передач в</td>
+                    <td class="metrics_table_field">Показывает как много передач происходит в определённую зону</td>
+                </tr>
+                <tr class="metrics_table_row">
+                    <td class="metrics_table_field">Частота передач из</td>
+                    <td class="metrics_table_field">Показывает как много передач происходит из определённой зоны</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
         <h3>
             <span>Метрики на <a target="_blank" href="https://xglab.pro/">сайте</a></span>
         </h3>
