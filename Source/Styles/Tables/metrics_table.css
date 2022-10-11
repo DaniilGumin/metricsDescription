@@ -1,0 +1,36 @@
+.metrics_table {
+    display: grid;
+    min-width: 100%;
+    border-spacing: 1px;
+    grid-template-columns:
+        minmax(100px, auto)
+        minmax(100px, auto);
+}
+
+.metrics_table_head {
+    display: contents;
+}
+
+.metrics_table_body {
+    display: contents;
+}
+
+.metrics_table_field {
+    padding: 5px;
+    text-align: left;
+    word-break: break-all;
+}
+
+.metrics_table_head_col_name {
+    text-align: center;
+    border-bottom: 1px solid black;
+    word-break: break-all;
+}
+
+.metrics_table_row {
+    display: contents;
+}
+
+.metrics_table_row:nth-of-type(odd) > .metrics_table_field {
+    background-color: lightgrey;
+}

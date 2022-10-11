@@ -5,22 +5,24 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description" content="Описание футбольных метрик для платформы xGLab">
     <meta name="Keywords" content="metrics, xglab, XT, EPV, метрики">
-    <link rel="shortcut icon" href="/Source/Images/logo.png" type="image/png">
-    <link rel="stylesheet" href="Source/Styles/Layouts/header.css" type="text/css">
-    <link rel="stylesheet" href="Source/Styles/Blocks/text_block.css" type="text/css">
-    <link rel="stylesheet" href="Source/Styles/Layouts/base.css" type="text/css">
-    <link rel="stylesheet" href="Source/Styles/Layouts/footer.css" type="text/css">
-    <link rel="stylesheet" href="Source/Styles/Layouts/main.css" type="text/css">
+    <link rel="shortcut icon" href="/Source/Images/logo16x16.png" type="image/png">
+    <link rel="stylesheet" href="/Source/Styles/Layouts/header.css" type="text/css">
+    <link rel="stylesheet" href="/Source/Styles/Blocks/text_block.css" type="text/css">
+    <link rel="stylesheet" href="/Source/Styles/Layouts/base.css" type="text/css">
+    <link rel="stylesheet" href="/Source/Styles/Layouts/footer.css" type="text/css">
+    <link rel="stylesheet" href="/Source/Styles/Layouts/main.css" type="text/css">
+    <link rel="stylesheet" href="/Source/Styles/Images/block_image.css" type="text/css">
+    <link rel="stylesheet" href="/Source/Styles/Tables/metrics_table.css" type="text/css">
     <title>xGLab Metrics</title>
 </head>
 <body>
 <header class="default-header">
     <nav class="navbar-default">
-        <a class="navbar-logo" href="./index.html">
+        <a class="navbar-logo" href="index.html">
             <img alt="logo" class="navbar-logo" src="Source/Images/logo.png">
         </a>
-        <a class="navbar-button" href="./metrics.html">Метрики</a>
-        <a class="navbar-button" href="./about_us.html">О нас</a>
+        <a class="navbar-button" href="metrics.html">Метрики</a>
+        <a class="navbar-button" href="about_us.html">О нас</a>
     </nav>
 </header>
 <main class="default-main">
@@ -36,7 +38,52 @@
         <h2>
             <span>Метрики</span>
         </h2>
-        <img alt="epv" class="metric_image" src="Source/Images/epv.PNG">
+        <div class="block-image-container">
+            <div class="block-image">
+                <div class="block-image box1">
+                    <img alt="epv" class="metric_image" src="Source/Images/epv.PNG">
+                </div>
+                <div class="block-image box2">
+                    <img alt="zones_to" class="metric_image" src="Source/Images/zones_to.jpg">
+                </div>
+                <div class="block-image box3">
+                    <img alt="sonar" class="metric_image" src="Source/Images/sonar.jpg">
+                </div>
+                <div class="block-image box4">
+                    <img alt="zones_from" class="metric_image" src="Source/Images/zones_from.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="table_div">
+            <table class="metrics_table">
+                <thead class="metrics_table_head">
+                <tr class="metrics_table_row">
+                    <th class="metrics_table_head_col_name">Название</th>
+                    <th class="metrics_table_head_col_name">Краткое описание</th>
+                </tr>
+                </thead>
+                <tbody class="metrics_table_body">
+                <tr class="metrics_table_row">
+                    <td class="metrics_table_field">EPV</td>
+                    <td class="metrics_table_field">Ожидаемая ценность владения</td>
+                </tr>
+                <tr class="metrics_table_row">
+                    <td class="metrics_table_field">Сонары</td>
+                    <td class="metrics_table_field">Показывает в каких зонах игрок активен с мячом и как он продвигает
+                        мяч
+                    </td>
+                </tr>
+                <tr class="metrics_table_row">
+                    <td class="metrics_table_field">Частота передач в</td>
+                    <td class="metrics_table_field">Показывает как много передач происходит в определённую зону</td>
+                </tr>
+                <tr class="metrics_table_row">
+                    <td class="metrics_table_field">Частота передач из</td>
+                    <td class="metrics_table_field">Показывает как много передач происходит из определённой зоны</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
         <h3>
             <span>Метрики на <a target="_blank" href="https://xglab.pro/">сайте</a></span>
         </h3>

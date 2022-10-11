@@ -14,10 +14,9 @@
     position: relative;
 }
 
-.navbar-button{
+.navbar-button {
     color: white;
     text-decoration: none;
-    /*font-weight: bold;*/
     border-radius: 4px;
     border: none;
     padding: 10px 16px;
