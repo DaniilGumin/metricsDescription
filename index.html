@@ -13,18 +13,12 @@
     <link rel="stylesheet" href="Source/Styles/Layouts/main.css" type="text/css">
     <link rel="stylesheet" href="Source/Styles/Images/block_image.css" type="text/css">
     <link rel="stylesheet" href="Source/Styles/Tables/metrics_table.css" type="text/css">
+    <script src="Source/Scripts/loadTimer.js"></script>
+    <script src="Source/Scripts/layout.js"></script>
+    <script src="Source/Scripts/active_menu.js"></script>
     <title>xGLab Metrics</title>
 </head>
-<body>
-<header class="default-header">
-    <nav class="navbar-default">
-        <a class="navbar-logo" href="index.html">
-            <img alt="logo" class="navbar-logo" src="Source/Images/logo.png">
-        </a>
-        <a class="navbar-button" href="metrics.html">Метрики</a>
-        <a class="navbar-button" href="about_us.html">О нас</a>
-    </nav>
-</header>
+<body id="body">
 <main class="default-main">
     <div class="card">
         <h2>
@@ -158,6 +152,7 @@
                 <a target="_blank" href="https://t.me/xGLabBot">t.me/xGLabBot</a> - Новостной канал
             </span>
         </p>
+        <p id="load-time"></p>
     </div>
 </footer>
 </body>
