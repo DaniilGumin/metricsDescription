@@ -11,12 +11,45 @@
     <link rel="stylesheet" href="Source/Styles/Layouts/footer.css" type="text/css">
     <link rel="stylesheet" href="Source/Styles/Layouts/main.css" type="text/css">
     <link rel="stylesheet" href="Source/Styles/Images/block_image.css" type="text/css">
-    <link rel="stylesheet" href="Source/Styles/Tables/metrics_table.css" type="text/css">
+    <link rel="stylesheet" href="Source/Styles/Tables/suggest_metric.css" type="text/css">
+    <link rel="stylesheet" href="Source/Styles/Forms/suggest_metric_form.css" type="text/css">
     <script src="Source/Scripts/loadTimer.js"></script>
     <script src="Source/Scripts/layout.js"></script>
     <script src="Source/Scripts/active_menu.js"></script>
+    <script src="Source/Scripts/suggest_metric.js"></script>
 </head>
 <body id="body">
+<main class="default-main">
+    <div class="card">
+        <h2>
+            <span>Предложите свою метрику!</span>
+        </h2>
+        <div>
+            <form class="suggest-metric-form">
+                <label for="metric-name"></label><input type="text" maxlength="50" placeholder="Название метрики" class="text-field box1" id="metric-name">
+                <label for="metric-description"></label><input type="text" maxlength="300" placeholder="Описание метрики" class="text-field box2" id="metric-description">
+                <label for="contact"></label><input type="text" maxlength="50" placeholder="Как с вами связаться?" class="text-field box3" id="contact">
+                <input type="submit" class="submit-button box4">
+            </form>
+        </div>
+        <h2>
+            <span>Ваши предложения: </span>
+        </h2>
+        <div>
+            <table class="suggest-metric-table">
+                <thead class="suggest-metric-head">
+                <tr class="suggest-metric-row">
+                    <th class="suggest-metric-head-col-name-with-right-line">Название</th>
+                    <th class="suggest-metric-head-col-name-with-right-line">Описание</th>
+                    <th class="suggest-metric-head-col-name">Контакт</th>
+                </tr>
+                </thead>
+                <tbody class="suggest-metric">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</main>
 <footer class="default-footer">
     <div class="card">
         <h2>Контакты</h2>

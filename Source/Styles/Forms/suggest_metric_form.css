@@ -1,0 +1,56 @@
+.submit-button {
+    color: white;
+    background-color: #132235;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 16px;
+    text-align: center;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.text-field {
+    border-radius: 4px;
+    padding: 10px 16px;
+    text-align: center;
+    outline: none;
+    transition: 0.4s;
+    box-sizing: border-box;
+    border: 2px solid lightgrey;
+}
+
+.text-field:focus {
+    border-color: #132235;
+}
+
+.text-field:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+.suggest-metric-form{
+    min-width: 100%;
+    display: grid;
+    grid-gap: 5px;
+    padding-right: 10px;
+    grid-template-areas:
+    "box1 box2 box3 box4";
+}
+
+@media screen and (max-width: 820px){
+    .suggest-metric-form{
+        display: grid;
+        min-width: 100%;
+        margin-bottom: 2px;
+        grid-template-areas:
+        "box1"
+        "box2"
+        "box3"
+        "box4";
+    }
+
+    .text-field{
+        margin-bottom: 4px;
+    }
+}

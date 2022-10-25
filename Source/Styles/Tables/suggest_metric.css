@@ -1,0 +1,45 @@
+.suggest-metric-table {
+    display: grid;
+    min-width: 100%;
+    border-spacing: 1px;
+    grid-template-columns:
+        minmax(50px, auto)
+        minmax(50px, auto)
+        minmax(50px, auto);
+}
+
+.suggest-metric-head {
+    display: contents;
+}
+
+.suggest-metric {
+    display: contents;
+}
+
+.metric-suggest-field {
+    padding: 5px;
+    text-align: left;
+}
+
+.metric-suggest-field-with-right-line {
+    padding: 5px;
+    text-align: left;
+    border-right: 1px solid black;
+}
+
+.suggest-metric-head-col-name-with-right-line {
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.suggest-metric-head-col-name {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.suggest-metric-row {
+    display: contents;
+}
+
+
