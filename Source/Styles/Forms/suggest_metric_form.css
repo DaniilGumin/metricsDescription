@@ -40,12 +40,6 @@
     font-size: 14px;
 }
 
-.no-resize {
-    resize: none;
-    font-family: Roboto, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-}
-
 .text-field:focus {
     border-color: #132235;
 }
