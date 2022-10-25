@@ -19,11 +19,13 @@
 .metric-suggest-field {
     padding: 5px;
     text-align: left;
+    border-bottom: 1px solid black;
 }
 
 .metric-suggest-field-with-right-line {
     padding: 5px;
     text-align: left;
+    border-bottom: 1px solid black;
     border-right: 1px solid black;
 }
 
@@ -35,6 +37,7 @@
 
 .suggest-metric-head-col-name {
     text-align: center;
+    border-bottom: 1px solid black;
     border-bottom: 1px solid black;
 }
 

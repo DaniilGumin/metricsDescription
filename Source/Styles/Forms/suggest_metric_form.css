@@ -9,6 +9,7 @@
     display: inline-block;
     transition-duration: 0.4s;
     cursor: pointer;
+    max-height: 40px;
 }
 
 .text-field {
@@ -19,6 +20,30 @@
     transition: 0.4s;
     box-sizing: border-box;
     border: 2px solid lightgrey;
+    max-height: 40px;
+}
+
+.textarea-field {
+    border-radius: 4px;
+    padding: 10px 16px;
+    min-height: 40px;
+    resize: vertical;
+    height: auto;
+    max-height: 300px;
+    min-width: 200px;
+    width: auto;
+    outline: none;
+    transition: 0.4s;
+    box-sizing: border-box;
+    border: 2px solid lightgrey;
+    font-family: Roboto, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.no-resize {
+    resize: none;
+    font-family: Roboto, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
 }
 
 .text-field:focus {

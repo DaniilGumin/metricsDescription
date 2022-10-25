@@ -3,6 +3,7 @@ function listenToSubmit() {
         event.preventDefault()
         const metricName = document.getElementById("metric-name").value
         const metricDescription = document.getElementById("metric-description").value
+        alert(metricDescription)
         const contact = document.getElementById("contact").value
 
         if (metricName.length === 0 || metricDescription.length === 0 || contact.length === 0) {
@@ -33,7 +34,7 @@ function renderSuggest(suggestObject) {
               ${suggestObject["name"]}
           </td>
           <td class="metric-suggest-field-with-right-line">
-              ${suggestObject["description"]}
+              <pre>${suggestObject["description"]}</pre>
           </td>
           <td class="metric-suggest-field">
               ${suggestObject["user-contact"]}
