@@ -6,7 +6,7 @@ document.addEventListener('layoutIsLoad', () => {
         .then(json => {
             loading.remove()
             comments.innerHTML = '';
-            let index = Math.floor(Math.random() * 94)
+            let index = Math.floor(Math.random() * 494)
             for (const comment of json.slice(index, index + 5)) {
                 comments.innerHTML += `
     <div class="comment-card">
