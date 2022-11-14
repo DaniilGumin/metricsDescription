@@ -1,3 +1,21 @@
-.main-text{
+.main-text {
     text-indent: 5px;
+    text-transform: capitalize
+}
+
+.header-text {
+    font-size: 20px;
+    margin: 0;
+    text-transform: capitalize
+}
+
+.contact-text {
+    font-size: 10px;
+    color: grey;
+    margin: 0;
+}
+
+.error-text {
+    color: hotpink;
+    text-transform: capitalize
 }
