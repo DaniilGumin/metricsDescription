@@ -8,3 +8,9 @@
 .swiper-pagination-bullet-active {
     background-color: #132235 !important;
 }
+
+@media screen and (max-width: 1200px) {
+    .swiper {
+        display: none;
+    }
+}
