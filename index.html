@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="Source/Styles/Images/block_image.css" type="text/css">
     <link rel="stylesheet" href="Source/Styles/Tables/metrics_table.css" type="text/css">
     <link rel="stylesheet" href="Source/Styles/Forms/suggest_metric_form.css" type="text/css">
+    <link rel="stylesheet" href="Source/Styles/Swiper/Swiper.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <script src="Source/Scripts/loadTimer.js"></script>
     <script src="Source/Scripts/layout.js"></script>
     <script src="Source/Scripts/activeMenu.js"></script>
@@ -33,21 +35,32 @@
         <h2>
             <span>Метрики</span>
         </h2>
-        <div class="block-image-container">
-            <div class="block-image">
-                <div class="block-image box1">
-                    <img alt="epv" class="metric_image" src="Source/Images/epv.PNG">
+        <!--        <div class="block-image-container">-->
+        <!--            <div class="block-image">-->
+        <!--                <div class="block-image box1">-->
+        <!--                    <img alt="epv" class="metric_image" src="Source/Images/epv.PNG">-->
+        <!--                </div>-->
+        <!--                <div class="block-image box2">-->
+        <!--                    <img alt="zones_to" class="metric_image" src="Source/Images/zones_to.jpg">-->
+        <!--                </div>-->
+        <!--                <div class="block-image box3">-->
+        <!--                    <img alt="sonar" class="metric_image" src="Source/Images/sonar.jpg">-->
+        <!--                </div>-->
+        <!--                <div class="block-image box4">-->
+        <!--                    <img alt="zones_from" class="metric_image" src="Source/Images/zones_from.jpg">-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img alt="epv" class="metric_image" src="Source/Images/epv.PNG"></div>
+                <div class="swiper-slide"><img alt="zones_to" class="metric_image" src="Source/Images/zones_to.jpg">
                 </div>
-                <div class="block-image box2">
-                    <img alt="zones_to" class="metric_image" src="Source/Images/zones_to.jpg">
-                </div>
-                <div class="block-image box3">
-                    <img alt="sonar" class="metric_image" src="Source/Images/sonar.jpg">
-                </div>
-                <div class="block-image box4">
-                    <img alt="zones_from" class="metric_image" src="Source/Images/zones_from.jpg">
+                <div class="swiper-slide"><img alt="sonar" class="metric_image" src="Source/Images/sonar.jpg"></div>
+                <div class="swiper-slide"><img alt="zones_from" class="metric_image" src="Source/Images/zones_from.jpg">
                 </div>
             </div>
+            <div class="swiper-pagination"></div>
         </div>
         <div class="table_div">
             <table class="metrics_table">
@@ -156,5 +169,7 @@
         <p id="load-time"></p>
     </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="Source/Scripts/initSwiper.js"></script>
 </body>
 </html>
